@@ -1,4 +1,5 @@
 # html-and-css
+<pre>
 <h1>This repo is used for understanding basics of html and css</h1><br>
 In html and css we are not going to use all the functions in our project. <br>
 Hence, In this repository we are going to learn and use some of thr most common and most used tags and function important for out projects.<br>
@@ -23,6 +24,7 @@ important tags that we usually use -
         <h6>see text size</h6>
 2)p tag- this tag is used to write long sentenses or used to write paragraphs 
     for example-
-        <p>this is a paragrph tag i am writing a paragrph in it</p>
+        <p>this is how a paragrph tag look, i am writing a paragrph in it</p>
 3)br tag- this tag is also called as break tag we use it to break a line or go to next line 
     for eg- in this line i placed a br tag <br> see now you can see these words come on next line
+</pre>
