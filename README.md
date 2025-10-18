@@ -57,7 +57,7 @@ as mentioned above we cannot run css independently so for linking it steps
 step 1-make html file in which you want to link the css file
 step 2-make the css file which you want to link with the html file
 step 3-In the html file under the head tag after title tag before closing head tag 
-write this - <link rel="stylesheet" href="name of the css file you want to link">
+write this - < link rel="stylesheet" href="name of the css file you want to link" >
 
 
 
