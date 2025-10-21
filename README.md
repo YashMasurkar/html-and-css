@@ -57,8 +57,37 @@ as mentioned above we cannot run css independently so for linking it steps
 step 1-make html file in which you want to link the css file
 step 2-make the css file which you want to link with the html file
 step 3-In the html file under the head tag after title tag before closing head tag 
-write this - < link rel="stylesheet" href="name of the css file you want to link" >
+write this - < link rel="stylesheet" href="name of the css file you want to link">
+2)css boilerplate-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
 
+Above is is often called a CSS boilerplate because it's a foundational set of styles that helps ensure consistency and predictability across different browsers.
+- It solves common layout issues that developers face when starting a new project.
+- * { margin: 0; padding: 0; box-sizing: border-box; }
+- margin: 0; padding: 0;: Removes default spacing that browsers apply to elements. This gives you a clean slate to style from.
+- box-sizing: border-box;: Changes how width and height are calculated so that padding and borders are included inside the element’s dimensions. This makes layout calculations much easier and more intuitive.
+- html, body { width: 100%; height: 100%; }
+- Ensures that the root elements (html and body) take up the full viewport. This is especially useful when you're building layouts that rely on full-height sections or want to use 100vh units effectively.
+3)targeting an element in css- to target an element we use two methods either ny using id of the element or class of element.
+    id is targeted by using "#" .
+    for eg - I want to a target div with id main thenin css i will type" #main{ in these braces i will style div as i want } " .
 
+4)width and height -
+see file style.css and link.html file.
+in that we used width and height for div tag with id main try to change the values and see change in output.
+5)units like px and % - 
+see file style.css and link.html file. 
+in these files we have used different div tags with different pixel and percentage values 
+6)margin and padding - 
+see file style.css and link.html file.
+In these files we have used different div tags with id "mar" and "padd" to understand different functions of margin and padding respectively.
 
 </pre>
