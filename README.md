@@ -114,23 +114,26 @@ for seeing the portion which you want to see use this commands
     background-position: botton;
     background-position: centre;
 8)postion absolute- 
-it is used to lift the element from its position and it lift within its own layer
+It is used to lift the element from its position and it lifted within its own layer
 when position is absolute it can move ouside the borders of div
-for eg first object will lift in 1 layer
+for example, 
+    first object will lift in 1 layer
     second object will lift in 2 layer
     third object will lift in 3 layer
-also note that each layer is placed one above other means 
+    
+Also note that each layer is placed one above other means-
+    
 if 2 object lift it will lift above and third object will come in second objects place so it will look like third is coverd by second object i.e.,2 on top of 3
 if 1 is lift above 2 and 3 will come forward
 if 3 is lift it doest show much changes 
 
-whenever we have lift an element we can change its position by moviong it
-top:10%;
-left:10%;
-right:10%;
-bottom:10%;
+whenever we have lift an element we can change its position by moving it bu using these commands-
+    top:10%;
+    left:10%;
+    right:10%;
+    bottom:10%;
 
-it works only when we have used position abosolute or relative without them these does not work
+It works only when we have used position abosolute or relative without them these commands does not work
 
 9)position relative-
 it is used so that we can make the inside element absolute also it will be inside the parent element not leaving border of it like it does in position absolute normally
