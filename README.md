@@ -91,4 +91,51 @@ in these files we have used different div tags with different pixel and percenta
 see file style.css and link.html file.
 In these files we have used different div tags with id "mar" and "padd" to understand different functions of margin and padding respectively.
 
+To give margin on top of elements we use " margin-top : 60px; "
+To give margin on right of elements we use " margin-right : 60px; "
+To give margin on left of elements we use " margin-left : 60px; "
+To give margin on bottom of elements we use " margin-bottom: 60px; "
+To give margin on all sides " margin : 60px; "
+margin: 20px 30px 50px 40px ; 
+this will apply margin in this order top, right, bottom, left. 
+margin :20px 30px;
+this will apply margin in this order top and bottom , right and left.
+
+padding it is imaginary border inside element
+
+7)understanding background image and things related to it-
+to get animage inside a div we use this sintax inside the css code
+background-image : url(paste the url of image to that you want as background image of div);
+the image will always not come in proper way soo for that use this
+    background-size cover; (because of this image will properly cover the div)
+sometimes the image is big in this case the image will not be full in div
+for seeing the portion which you want to see use this commands
+    background-position: top;
+    background-position: botton;
+    background-position: centre;
+8)postion absolute- 
+it is used to lift the element from its position and it lift within its own layer
+when position is absolute it can move ouside the borders of div
+for eg first object will lift in 1 layer
+    second object will lift in 2 layer
+    third object will lift in 3 layer
+also note that each layer is placed one above other means 
+if 2 object lift it will lift above and third object will come in second objects place so it will look like third is coverd by second object i.e.,2 on top of 3
+if 1 is lift above 2 and 3 will come forward
+if 3 is lift it doest show much changes 
+
+whenever we have lift an element we can change its position by moviong it
+top:10%;
+left:10%;
+right:10%;
+bottom:10%;
+
+it works only when we have used position abosolute or relative without them these does not work
+
+9)position relative-
+it is used so that we can make the inside element absolute also it will be inside the parent element not leaving border of it like it does in position absolute normally
+note:- jiske andar rakhna hai usko relative banao 
+
+
+
 </pre>
